@@ -1,0 +1,7 @@
+services:
+  web:
+    image: docker.io/library/nginx
+    ports:
+      - "8080:80"
+  cache:
+    image: docker.io/library/redis
